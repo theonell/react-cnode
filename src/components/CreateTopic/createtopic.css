@@ -1,0 +1,33 @@
+.create-topic{
+  width: 70%;
+  margin-left: 50px;
+  display: flex;
+  flex-direction: column;
+}
+.create-topic input{
+  /* width: 300px; */
+  line-height: 30px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  outline: none;
+  margin-top: 10px;
+}
+.create-topic textarea{
+  /* width: 300px; */
+  height: 300px;
+  text-indent: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: none;
+  outline: none;
+  margin: 10px 0;
+}
+.create-topic button{
+  width: 52px;
+  line-height: 34px;
+  font-size: 14px;
+  color: #fff;
+  border: 0;
+  outline: none;
+  background-color: #05c;
+}

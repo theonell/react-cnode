@@ -1,0 +1,42 @@
+.head-content {
+    display: flex;
+    background-color: #333;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 10px;
+}
+
+.head-content>a>img {
+    width: 120px;
+    margin-left: 40px;
+}
+
+.head-content>div {
+    display: flex;
+    align-items: center;
+}
+
+.head-content>div img {
+    width: 30px;
+    margin-right: 10px;
+}
+
+.head-content>div input {
+    width: 200px;
+    outline: none;
+    border: none;
+    text-indent: 10px;
+    margin-right: 10px;
+    border-radius: 20px;
+    line-height: 24px;
+}
+
+.head-content>div button {
+    line-height: 40px;
+    outline: none;
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #ccc;
+    margin-right: 40px;
+}

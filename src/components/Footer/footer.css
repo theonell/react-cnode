@@ -1,0 +1,42 @@
+.foot-bg{
+  background-color: #fff;
+  padding: 20px 0;
+}
+.foot{
+  width: 92%;
+  margin: 0 auto;
+  color: #ababab;
+  font-size: 14px;
+}
+.foot div{
+  display: flex;
+}
+.foot div a:nth-child(2){
+  margin-left: 10px;
+  padding-left: 10px;
+  border-left: 1px solid #ababab;
+}
+.foot div a{
+  text-decoration: none;
+  color: #666;
+  font-size: 12px;
+}
+.foot div a:hover{
+  color: #385f8a;
+}
+.foot p{
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+}
+.foot p img{
+  width: 100px;
+}
+.foot p a{
+  text-decoration: none;
+  color: #08c;
+}
+.foot p a:hover{
+  color: #385f8a;
+  text-decoration: underline;
+}

@@ -1,0 +1,36 @@
+body{
+  background-color:   #e1e1e1;
+  margin: 0;
+}
+*{
+  box-sizing: border-box;
+}
+
+.wrap{
+  width: 64%; 
+  margin: 16px 16px 16px 50px;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+}
+.tabs{
+  /* width: 300px; */
+  height: 50px;
+  align-items: center;
+  display: flex;
+  /* justify-content: space-between; */
+  color: #80bd01;
+  background-color: #f6f6f6;
+}
+.tabs span{
+  width: 40px;
+  font-size: 14px;
+  margin-left: 10px;
+  line-height: 26px;
+  text-align: center;
+  border-radius: 5px;
+}
+.tabs span.active{
+  background-color: #80bd01;
+  color: white;
+}

@@ -1,0 +1,54 @@
+
+.showtopics{
+  display: flex;
+  padding: 10px 0;
+  border-bottom: 1px solid #f0e7e7;
+  align-items: center;
+}
+.showtopics:hover{
+  background-color: #f6f6f6;
+}
+.showtopics img{
+  width: 30px;
+  height: 30px;
+  margin-left: 16px;
+}
+.showtopics .show-num{
+  width: 83px;
+  color:#ccc;
+  text-align: center;
+}
+.showtopics span.top-good{
+  font-size: 12px;
+  width: 32px;
+  text-align: center;
+  background-color: #e5e5e5;
+  color: #999;
+  border-radius: 5px;
+}
+.showtopics span.active{
+  background-color: #80bd01;
+  color: white;
+}
+.topic-title{
+  width: 500px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  margin: 0 10px;
+}
+.topic-title a{
+  color: #333;
+  text-decoration: none;
+}
+.topic-title a:hover{
+  text-decoration: underline;
+}
+.topic-title a:visited{
+  color: #888;
+}
+/* body{
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+} */

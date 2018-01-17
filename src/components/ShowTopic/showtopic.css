@@ -1,0 +1,33 @@
+.art-content{
+  width: 64%;
+  margin-left: 50px;
+  background-color: #fff;
+  padding: 14px 20px;
+  border-radius: 4px;
+  margin-top: 10px;
+}
+.art-content>div>span{
+  font-size: 14px;
+  color: #ada4a4;
+}
+h2{
+  margin: 0;
+}
+.markdown-text img{
+  width: 100%;
+}
+.replies{
+  display: flex;
+  padding: 10px 0;
+  border-bottom: 1px solid #ccc;
+}
+.replies>div{
+  display: flex;
+  font-size: 14px;
+  flex-direction: column;
+}
+.replies img{
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
